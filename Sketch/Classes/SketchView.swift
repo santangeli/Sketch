@@ -252,7 +252,7 @@ public class SketchView: UIView {
         }
     }
 
-    func canUndo() -> Bool {
+    public func canUndo() -> Bool {
         return pathArray.count > 0
     }
 
